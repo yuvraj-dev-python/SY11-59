@@ -1,0 +1,12 @@
+def check_number_sign(number):
+    if number > 0:
+        return "Positive"
+    elif number < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+# Example usage
+num = float(input("Enter a number: "))
+result = check_number_sign(num)
+print(f"The number is: {result}")
