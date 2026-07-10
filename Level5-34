@@ -1,0 +1,7 @@
+def replace_word(original_string, target_word, replacement_word):
+    return original_string.replace(target_word, replacement_word)
+
+# Example usage
+text = "The quick brown fox jumps over the lazy dog."
+new_text = replace_word(text, "lazy", "active")
+print(new_text)
