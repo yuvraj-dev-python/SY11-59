@@ -1,0 +1,13 @@
+def find_smallest_element(input_list):
+    if not input_list:
+        return None
+    smallest = input_list[0]
+    for element in input_list:
+        if element < smallest:
+            smallest = element
+    return smallest
+
+# Example usage
+numbers = [5, 3, 8, 1, 4]
+smallest_number = find_smallest_element(numbers)
+print("The smallest element is:", smallest_number)
